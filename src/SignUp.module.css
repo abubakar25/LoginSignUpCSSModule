@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+.bodyClass {
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
+.h1Class {
+  font-weight: bold;
+  margin: 0;
+}
+.h2Class {
+  text-align: center;
+}
+.pClass {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+.spanClass {
+  font-size: 12px;
+}
+.anchor {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.formClass {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.inputClass {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+.buttonClass {
+  border-radius: 20px;
+  border: 1px solid #5bc0aa;
+  background-color: #5bc0aa;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+.buttonClass:active {
+  transform: scale(0.95);
+}
+
+.buttonClass:focus {
+  outline: none;
+}
+
+.buttonClass.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.socialContainer {
+  margin: 20px 0;
+}
+
+.socialContainer a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.div1 {
+  clip-path: polygon(
+    50% 0%,
+    83% 12%,
+    100% 43%,
+    94% 78%,
+    68% 100%,
+    32% 100%,
+    6% 78%,
+    0% 43%,
+    17% 12%
+  );
+  background-color: #ccc;
+  width: 12%;
+  height: 9%;
+  align-self: flex-start;
+  position: absolute;
+  top: 600;
+  right: 670;
+  left: 60;
+  bottom: 0;
+}
+.div2 {
+  clip-path: polygon(53% 23%, 68% 45%, 46% 63%, 35% 43%);
+  background-color: #ccc;
+  width: 20%;
+  height: 20%;
+  align-self: flex-end;
+  position: absolute;
+  top: 0;
+}
+.div3 {
+  clip-path: circle(20% at 50% 50%);
+  background-color: #ccc;
+  width: 20%;
+  height: 20%;
+  align-self: flex-start;
+  position: absolute;
+  top: 0;
+}
+.div4 {
+  clip-path: polygon(44% 65%, 48% 89%, 72% 72%);
+  background-color: #ccc;
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  align-self: flex-end;
+  top: 50;
+}
+.div5 {
+  clip-path: polygon(
+    50% 0%,
+    83% 12%,
+    100% 43%,
+    94% 78%,
+    68% 100%,
+    32% 100%,
+    6% 78%,
+    0% 43%,
+    17% 12%
+  );
+  background-color: #ccc;
+  width: 12%;
+  height: 9%;
+  align-self: center;
+  position: absolute;
+  top: 600;
+  right: 670;
+  left: 60;
+  bottom: 0;
+}
+.div6 {
+  clip-path: polygon(36% 57%, 41% 94%, 73% 70%);
+  background-color: #ccc;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+}
